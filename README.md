@@ -7,5 +7,5 @@
     - score - holds the current score
  - contains 10 static questions for now
  - built using pure css
- - mobile compatible
+ - mobile compatible and fluid responsible at mobile breakpoint
  - [Link to the application!](https://saurabhkumar23.github.io/quiz-app/)

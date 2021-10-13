@@ -117,7 +117,7 @@ export default function App() {
 			{showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}
-                    <div><a href='/'>Start Again</a></div>
+                    <div><a href='/quiz-app'>Start Again</a></div>
 				</div>
 			) : (
 				<>

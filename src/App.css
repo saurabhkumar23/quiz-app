@@ -22,8 +22,7 @@ body {
 
 .app {
     background-color: #252d4a;
-    max-width: 650px;
-    min-height: 200px;
+    width: 650px;
     height: min-content;
     border-radius: 15px;
     padding: 20px;
@@ -120,4 +119,25 @@ a {
     font-size: 3em;
     text-align: center;
     margin-bottom: 15px;
+}
+
+@media (max-width : 764px) {
+    .app{
+        width: 72vw;
+    }
+}
+
+@media (max-width : 480px) {
+    .answer-section button{
+        font-size: 4vw;
+    }
+    .heading{
+        font-size: 8vw;
+    }
+    .question-count, .question-count span{
+        font-size: 6vw;
+    }
+    .question-text{
+        font-size: 5vw;
+    }
 }
